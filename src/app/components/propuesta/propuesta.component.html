@@ -1,13 +1,10 @@
-<div align="center">
-    <img class="borde" src="../../../assets/aleuli.jpg" width="200">
-</div>
-<div>
-    <h1>HI</h1>
-</div>
-<div align="center">
-    <button type="button" class="btn btn-primary m-4" (click)="accept()">Sí</button>
-    <button type="button" class="btn btn-secondary " (click)="accept()">Sí, en rojo</button>
-</div>
-
- 
-
+<app-navbar></app-navbar>
+    <div class="list-group-flush">
+        <div class="list-group-item" (click)="accept()">
+          <p class="mb-0"><img class="borde" src="../../../assets/aleuli.jpg" >About us...</p>
+        </div>
+        <div class="list-group-item" (click)="accept()">
+            <p class="mb-0"><img class="borde" src="../../../assets/aleuli.jpg" >Propuesta</p>
+        </div>
+    </div>
+  
